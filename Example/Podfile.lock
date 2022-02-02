@@ -1,0 +1,16 @@
+PODS:
+  - LDOMarkdownParser (0.1.0)
+
+DEPENDENCIES:
+  - LDOMarkdownParser (from `../`)
+
+EXTERNAL SOURCES:
+  LDOMarkdownParser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LDOMarkdownParser: f08074b5749e25ff8f8e37d6f194addf28160140
+
+PODFILE CHECKSUM: d0b4f8297011a9f681a620981d1cbbbf8bd76cdc
+
+COCOAPODS: 1.11.2

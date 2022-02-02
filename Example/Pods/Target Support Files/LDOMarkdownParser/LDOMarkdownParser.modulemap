@@ -1,0 +1,6 @@
+framework module LDOMarkdownParser {
+  umbrella header "LDOMarkdownParser-umbrella.h"
+
+  export *
+  module * { export * }
+}

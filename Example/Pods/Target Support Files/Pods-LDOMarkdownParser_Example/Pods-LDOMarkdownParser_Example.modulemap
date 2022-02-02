@@ -1,0 +1,6 @@
+framework module Pods_LDOMarkdownParser_Example {
+  umbrella header "Pods-LDOMarkdownParser_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

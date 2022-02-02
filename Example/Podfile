@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LDOMarkdownParser_Example' do
+  pod 'LDOMarkdownParser', :path => '../'
+
+  target 'LDOMarkdownParser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

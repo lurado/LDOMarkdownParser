@@ -1,0 +1,22 @@
+{
+  "name": "LDOMarkdownParser",
+  "version": "0.1.0",
+  "summary": "Parse (some) markdown attributes into an NSAttributedString.",
+  "description": "Currently only supports bold, italic and links.",
+  "homepage": "https://github.com/lurado/LDOMarkdownParser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Julian Raschke und Sebastian Ludwig GbR": "info@lurado.com"
+  },
+  "source": {
+    "git": "https://github.com/lurado/LDOMarkdownParser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "LDOMarkdownParser/Classes/**/*"
+}
