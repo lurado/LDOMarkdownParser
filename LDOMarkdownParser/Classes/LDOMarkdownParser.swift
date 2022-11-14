@@ -55,7 +55,7 @@ public class LDOMarkdownParser {
         func range(_ nsrange: NSRange) -> Range<String.Index> { Range(nsrange, in: attributedText.string)! }
         func range(_ text: NSAttributedString) -> NSRange { NSRange(attributedText.string.startIndex..., in: attributedText.string) }
         func iterateMatches(_ pattern: String, action: (NSTextCheckingResult) -> Void) {
-            let regex = try! NSRegularExpression(pattern: pattern)
+            let regex = try! NSRegularExpression(pattern: pattern, options: .dotMatchesLineSeparators)
             while case let match = regex.firstMatch(in: attributedText.string, options: [], range: range(attributedText)), match != nil {
                 action(match!)
             }
